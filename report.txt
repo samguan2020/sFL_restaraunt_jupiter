@@ -1,0 +1,18 @@
+Report
+
+Problem to solve: Find the popular venues in South Florida.
+
+Introduction:
+
+1. Use US zipcode website to scrape the zipcode and city information for South Florida Cities.
+2. Use Foursquare to get the popular venues info.
+3. Use Folium for visualization presentation.
+
+Data description:
+
+1. Dataframe df to get the US zipcode database info.
+2. sfl_venues to store the raw data from Foursquare.
+3. sfl_onehot -> sfl_grouped to get the grouped data per city.
+4. neighborhood_venues_sorted to get the 10 most common venue per zipcode.
+5. sfl_merged to add K-Means cluster labels.
+6. Draw the map on map_clusters.
